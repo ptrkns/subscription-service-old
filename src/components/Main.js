@@ -72,7 +72,7 @@ function Main() {
           removePackage={removePackage}
           removePackageOnContract={removePackageOnContract}
           setCurrentPage={setCurrentPage}
-          showMessage={showMessage}     
+          showMessage={showMessage}
           executeTransaction={executeTransaction}
           renewSubscription={renewSubscription}
 
