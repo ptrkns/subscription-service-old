@@ -1,0 +1,86 @@
+[
+    {
+        "serviceID":1,
+        "name": "Netflix",
+        "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, and more on thousands of internet-connected devices.",
+        "duration":1,
+        "price": 0.00001
+    },
+    {
+        "serviceID":2,
+        "name": "Netflix",
+        "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, and more on thousands of internet-connected devices.",
+        "duration":6,
+        "price": 0.00015
+    },
+    {
+        "serviceID":3,
+        "name": "Netflix",
+        "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, and more on thousands of internet-connected devices.",
+        "duration":12,
+        "price":0.0002
+    },
+    {
+        "serviceID":4,
+        "name": "HBO Max",
+        "description": "HBO Max offers an unforgettable streaming experience: the first to bring together the best stories from Warner Bros, HBO, DC, Cartoon Network and more.",
+        "duration":1,
+        "price":0.00002
+    },
+    {
+        "serviceID":5,
+        "name": "HBO Max",
+        "description": "HBO Max offers an unforgettable streaming experience: the first to bring together the best stories from Warner Bros, HBO, DC, Cartoon Network and more.",
+        "duration":6,
+        "price":0.0001
+    },
+    {
+        "serviceID":6,
+        "name": "HBO Max",
+        "description": "HBO Max offers an unforgettable streaming experience: the first to bring together the best stories from Warner Bros, HBO, DC, Cartoon Network and more.",
+        "duration":12,
+        "price":0.00015
+    },
+    {
+        "serviceID":7,
+        "name": "Spotify",
+        "description": "Spotify is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world.",
+        "duration":1,
+        "price":0.0001
+    },
+    {
+        "serviceID":8,
+        "name": "Spotify",
+        "description": "Spotify is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world.",
+        "duration":6,
+        "price":0.00015
+    },
+    {
+        "serviceID":9,
+        "name": "Spotify",
+        "description": "Spotify is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world.",
+        "duration":12,
+        "price":0.0002
+    },
+    {
+        "serviceID":10,
+        "name": "Tidal",
+        "description": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
+        "duration":1,
+        "price":0.00001
+    },
+    {
+        "serviceID":11,
+        "name": "Tidal",
+        "description": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
+        "duration":6,
+        "price":0.00002
+    },
+    {
+        "serviceID":12,
+        "name": "Tidal",
+        "description": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
+        "duration":12,
+        "price":0.00003
+    }
+]
