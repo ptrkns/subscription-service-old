@@ -1,0 +1,88 @@
+.Service-Body, .Service-Body-Selected, .Service-Body-Payment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+    height: 150px;
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+.Service-Body, .Service-Body-Payment {
+    background: #4992ff;
+}
+
+.Service-Body-Selected {
+    background: #9dc4ff;
+}
+
+.Service-Body-Selected:hover {
+    cursor: pointer;
+}
+
+.Service-Body:hover {
+    background: #6aa5ff;
+    cursor: pointer;
+}
+
+.Name-Container {
+    width: 340px;
+}
+
+.Price-Container{
+    width: 150px;
+    margin: auto;
+    text-align: end;
+    font-size: large;
+}
+
+.Name-Container:hover, .Price-Container:hover, .Service-Text:hover, .Service-Desc:hover, .Price-Text:hover {
+    cursor: pointer;
+}
+
+.Service-Text, .Price-Text {
+    font-weight: bolder;
+}
+
+.Service-Text{
+    font-size: large;
+}
+
+.Service-Body-Update{
+    display: flex;
+    flex-direction: column;
+    background: #4992ff;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+.First-Line-Container, .Second-Line-Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SLC-Button {
+    background: white;
+    
+    color: #4992ff;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+
+    border: 0px;
+    border-radius: 10px;
+
+    margin: -15px -4px 0px 0px;
+    padding: 6px;
+    width: 120px;
+    height: 35px;
+}
+
+.SLC-Button:hover {
+    color: #ff5656;
+    cursor: pointer;
+}

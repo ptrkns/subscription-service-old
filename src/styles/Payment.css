@@ -1,0 +1,33 @@
+.P-Body {
+    padding: 0px 20px 0px 20px;
+}
+
+.PB-Period {
+    display: flex;
+    justify-content:stretch;
+    font-weight: bolder;
+}
+
+.PBP-Start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #d9d9d9;
+    border-radius: 10px;
+    margin: auto;
+    width: 275px;
+    height: 40px;
+    color: #757575;
+}
+
+.PBP-End {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #4992ff;
+    border-radius: 10px;
+    margin: auto;
+    width: 275px;
+    height: 40px;
+    color: #4992ff;
+}

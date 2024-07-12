@@ -1,0 +1,47 @@
+.CW-Shading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+.Window-Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: #fff;
+    
+    padding: 10px 20px 0px 20px;
+    width: 400px;
+    
+    border-radius: 10px;
+}
+
+.Window-Text-Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Window-Text {
+    margin-bottom: auto;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #757575;
+}
+
+.Window-Button-Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}

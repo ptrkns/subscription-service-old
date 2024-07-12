@@ -1,0 +1,62 @@
+.PC-Body {
+    padding: 0px 20px 0px 20px;
+}
+
+.Button-Container-PC{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 40px 0px 40px;
+}
+
+.Button-Inactive {
+    background: #d9d9d9;
+    
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+
+    border: 0px;
+    border-radius: 7px;
+
+    margin: 30px 0px 30px 0px;
+    padding: 6px;
+    width: 200px;
+    height: 40px;
+}
+
+.Button-Active {
+    background: #4992ff;
+    
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+
+    border: 0px;
+    border-radius: 7px;
+
+    margin: 30px 0px 30px 0px;
+    padding: 6px;
+    width: 200px;
+    height: 40px;
+}
+
+.Button-Active:hover {
+    background: #6aa5ff;
+    cursor: pointer;
+}
+
+.PCB-Dropdown {
+    width: 100%;
+    height: 40px;
+    border: 3px solid #d9d9d9;
+    color: #757575;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 0px 10px 0px 10px;
+    font-weight: bolder;
+}
+
+.PCB-Dropdown:hover {
+    cursor: pointer;
+}

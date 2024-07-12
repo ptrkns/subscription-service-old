@@ -1,0 +1,53 @@
+.Account-Body {
+    padding: 0px 20px 0px 20px;
+}
+
+.Account-Active-Input, .Account-Inactive-Input, .Account-Address-Field{
+    width: 100%;
+    height: 40px;
+    border: 3px solid #d9d9d9;
+    color: #757575;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.Account-Active-Input {
+    margin: 20px 0px 20px 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+.Account-Active-Input:hover {
+    cursor: pointer;
+}
+
+.Account-Inactive-Input, .Account-Address-Field {
+    margin: 0px 0px 20px 0px;
+    padding: 7px 10px 0px 10px;
+}
+
+.Account-Address-Field:hover{
+    border-color: #4992ff;
+    color: #4992ff;
+    cursor: pointer;
+}
+
+.Account-Label{
+    font-size: medium;
+    color: #757575;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.Account-Text-Warning {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    background: #d9d9d9;
+    color: #757575;
+}
+

@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.Menu {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 0px 0px 10px 10px;
+    font-weight: bolder;
+    color: white;
+    background: #4992ff;
+}
+
+.Item, .Item-Left, .Item-Right{
+    height: 50px;
+    padding: 15px 15px 0px 15px;
+    margin: 0px;
+}
+
+.Item:hover, .Item-Left:hover, .Item-Right:hover {
+    background: #6aa5ff;
+    cursor: pointer;
+}
+
+.Item-Left:hover {
+    border-radius: 0px 0px 0px 10px;
+}
+
+.Item-Right:hover {
+    border-radius: 0px 0px 10px 0px;
+}

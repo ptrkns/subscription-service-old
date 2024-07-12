@@ -1,0 +1,39 @@
+.Message-Body-Green, .Message-Body-Red, .Message-Body-Yellow {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    bottom: 50px;
+    width: 560px;
+    height: 50px;
+
+    font-weight: bolder;
+}
+
+.Message-Body-Green {
+    background: #4fbd45e0;
+    color: white;
+}
+
+.Message-Body-Red {
+    background: #ff5656e0;
+    color: white;
+}
+
+.Message-Body-Yellow {
+    background: #ffd500e0;
+    color: #757575;
+}
+
+.Message-Close {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.Message-Close:hover {
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}

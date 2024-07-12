@@ -1,0 +1,111 @@
+.Shading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+ 
+.LRP-Body {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.LRP-Input-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background: #fff;
+  
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.RC-Input-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background: #fff;
+  
+  padding: 10px 30px 10px 30px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.RC-Button-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 360px;
+}
+
+.LRP-Inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px 0px 0px 0px;
+  width: 350px;
+}
+
+.LRP-Input-Error, .LRP-Input-Error-2 {
+  font-size: medium;
+  color: #ff5656;
+  margin: -10px 0px 10px 0px;
+}
+
+.LRP-Input-Error {
+  text-align: center;
+}
+
+.SIP-Address {
+  width: 100%;
+  overflow: hidden;
+  height: 40px;
+  border: 3px solid #d9d9d9;
+  color: #757575;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 7px 0px 0px 5px;
+  font-weight: bolder;
+}
+
+.LRP-Button, .LRP-Button-Inactive {    
+  color: white;
+  font-size: medium;
+  font-weight: bolder;
+  text-align: center;
+
+  border: 0px;
+  border-radius: 10px;
+
+  margin: 10px 0px 10px 0px;
+  padding: 6px;
+  width: 170px;
+  height: 40px;
+}
+
+.LRP-Button {
+  background: #4992ff;
+}
+
+.LRP-Button-Inactive {
+  background: #d9d9d9;
+}
+
+.LRP-Button:hover {
+  background: #6aa5ff;
+  cursor: pointer;
+}
+
+.SIP-Button-Inactive:hover {
+  cursor: default;
+}
