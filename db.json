@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "keneseipeterr@gmail.com",
+      "password": "000000",
+      "address": "0x96deeb1f65feaa53414f7be52a132d4a91313230"
+    },
+    {
+      "id": "23851",
+      "email": "kenesei@gmail.com",
+      "password": "000000",
+      "address": "0x3522518e566fd149d53c406836c57f0689701186"
+    },
+    {
+      "id": "98740",
+      "email": "awdawdaw@adawdawd.xc",
+      "password": "222222",
+      "address": "0x3522518e566fd149d53c406836c57f0689701186"
+    }
+  ]
+}
